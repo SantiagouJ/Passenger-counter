@@ -56,20 +56,23 @@ h1, h2 {
 button {
     max-width: 80%;
     font-size: 1em;
+    padding: 15px; /* Larger padding for better usability */
 }
 
 /* Media query for smaller screens */
 @media (max-width: 600px) {
     h2 {
-        font-size: 2em;
+        font-size: 2.5em; /* Slightly larger */
     }
 
     button {
-        font-size: 0.9em;
+        font-size: 1.2em; /* Increase button size */
+        padding: 20px; /* Larger padding for smaller screens */
+        width: 90%; /* Almost full width on small screens */
     }
     
     #save-el {
-        font-size: 0.8em;
+        font-size: 0.9em;
         word-wrap: break-word;
         text-align: center;
     }
