@@ -37,7 +37,7 @@ button {
 }
 
 
-/* Responsive adjustments */
+/* Enhanced responsive adjustments */
 body {
     margin: 0;
     padding: 0;
@@ -46,7 +46,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    font-size: 1rem;
+    font-size: 1.2rem; /* Slightly larger default font size */
+    text-align: center;
 }
 
 h1, h2 {
@@ -54,25 +55,27 @@ h1, h2 {
 }
 
 button {
-    max-width: 80%;
-    font-size: 1em;
-    padding: 15px; /* Larger padding for better usability */
+    max-width: 90%;
+    font-size: 1.3em; /* Larger text for buttons */
+    padding: 20px; /* Comfortable padding for touch */
+    margin: 10px 0; /* More spacing between buttons */
 }
 
 /* Media query for smaller screens */
 @media (max-width: 600px) {
     h2 {
-        font-size: 2.5em; /* Slightly larger */
+        font-size: 3em; /* Even larger text for better visibility */
     }
 
     button {
-        font-size: 1.2em; /* Increase button size */
-        padding: 20px; /* Larger padding for smaller screens */
-        width: 90%; /* Almost full width on small screens */
+        font-size: 1.5em; /* Larger button text */
+        padding: 25px; /* More padding */
+        width: 95%; /* Almost full width for better usability */
     }
-    
+
     #save-el {
-        font-size: 0.9em;
+        font-size: 1em; /* Adjusted size for better readability */
+        margin-top: 10px;
         word-wrap: break-word;
         text-align: center;
     }
